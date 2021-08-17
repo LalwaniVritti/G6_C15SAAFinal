@@ -45,7 +45,7 @@ function draw() {
   }
 
   else if(gameState === END ){
-    textSize(15);
+    textSize(13);
     fill("black");
     text("YOU ADDED ONE MORE PENNY, CLICK ON COIN TO ADD MORE",10,50);
     text("Coins = " + count,160,30)
