@@ -45,9 +45,9 @@ function draw() {
   }
 
   else if(gameState === END ){
-    textSize(20);
+    textSize(15);
     fill("black");
-    text("YOU ADDED ONE MORE PENNY, CLICK ON COIN TO ADD MORE",40,50);
+    text("YOU ADDED ONE MORE PENNY, CLICK ON COIN TO ADD MORE",10,50);
     text("Coins = " + count,160,30)
     chance.visible=true;
     if(mousePressedOver(chance)){
