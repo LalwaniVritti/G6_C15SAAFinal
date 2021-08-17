@@ -46,9 +46,9 @@ function draw() {
 
   else if(gameState === END ){
     textSize(20);
-    fill("red");
-    text("$$ You added one dollar $$",100,50);
-    text("Coins = " + count,180,30)
+    fill("black");
+    text("YOU ADDED ONE MORE PENNY, CLICK ON COIN TO ADD MORE",800,50);
+    text("Coins = " + count,160,30)
     chance.visible=true;
     if(mousePressedOver(chance)){
       reset()
