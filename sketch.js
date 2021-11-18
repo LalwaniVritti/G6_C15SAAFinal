@@ -47,7 +47,7 @@ function draw() {
   else if(gameState === END ){
     textSize(12);
     fill("red");
-    text("YOU ADDED ONE MORE DOLLAR,CLICK ON COIN TO ADD MORE",0,50);
+    text(" $$ You added one dollar $$",0,50);
     text("Coins = " + count,160,30)
     chance.visible=true;
     if(mousePressedOver(chance)){
